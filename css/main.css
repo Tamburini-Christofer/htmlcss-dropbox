@@ -47,7 +47,8 @@ ul{
 }
 
 span{
-    margin: 10px 0px 40px 0px;
+
+    margin-top:20px;
 }
 
 /*Body*/
@@ -201,6 +202,20 @@ label{
 .contenuto_abbonamento button{
     margin: 60px 0px 40px 0px;
     padding: 8px 9px;
+}
+
+.punti_salienti_abbonamento{
+    padding: 20px;
+    text-align: start;
+}
+
+.punti_salienti_abbonamento i{
+    font-size: small;
+    color: #0062FE;
+ }
+
+.punti_salienti_abbonamento div{
+    margin-top: 40px;
 }
 
 /*Footer*/
