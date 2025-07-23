@@ -22,6 +22,16 @@ h3{
     color: black;
 }
 
+.text_white{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .contenitore{
     /*Flex*/
     display: flex;
@@ -218,6 +228,11 @@ label{
     margin-top: 40px;
 }
 
+span a{
+    color: #0062FE;
+    text-decoration: underline;
+}
+
 /*Footer*/
 
 footer{
@@ -227,14 +242,20 @@ footer{
 footer>.contenitore{
     display: flex;
 
-    width: 80%;
+    width: 70%;
     height: 400px;
-    background-color: rgb(165, 26, 26);
+    /*background-color: rgb(165, 26, 26);*/
 }
 
 .list_footer{
+    padding-top: 60px;
     width: 20%;
     /*DEBUG*/
-    border: 2px solid white;
+    /*border: 2px solid white;*/
 }
+
+.list_footer li{
+    margin-top: 20px;
+}
+
 
