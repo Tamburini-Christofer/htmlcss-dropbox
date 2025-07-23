@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+.margin_top{
+    margin-top: 60px;
+}
+
+.border{
+    border: 1px solid grey;
+}
+
 h1{
     font-size: 54px;
 }
@@ -40,7 +48,7 @@ a{
     margin: 0 auto;
 
     /*DEBUG*/
-    height: 400px;
+    height: 12000px;
     /*background-color: brown;*/
 }
 
@@ -194,7 +202,7 @@ label{
 }
 .punti_salienti_abbonamento{
     height: 400px;
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 .contenuto_abbonamento>span{
     margin-bottom: 10px;
@@ -231,6 +239,38 @@ label{
 span a{
     color: #0062FE;
     text-decoration: underline;
+}
+
+.contenitore_team{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    /*background-color: blueviolet;*/
+}
+
+.contenitore_header_team{
+    text-align: center;
+
+    padding: 10px 0px;
+}
+
+.contenitore_ht{
+    display: flex;
+    justify-content: space-between;
+
+    height: 200px;
+}
+
+.contenitore_ht_sx{
+    padding: 20px;
+    width: 70%;
+    /*background-color: cadetblue;*/
+}
+
+.contenitore_ht_dx{
+    padding-top: 30px;
+    width: 30%;
+    /*background-color: rgb(95, 160, 109);*/
 }
 
 /*Footer*/
