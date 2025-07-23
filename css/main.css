@@ -7,7 +7,11 @@
 }
 
 h1{
-    font-size: 55px;
+    font-size: 54px;
+}
+
+h2{
+    font-size: 30px;
 }
 
 .text_black{
@@ -124,9 +128,52 @@ header{
 /*Main*/
 
 main>.contenitore{
+    display: block;
+    margin-top: 200px;
+    width: 50%;
     /*DEBUG*/
     height: 1600px;
+    /*background-color: rgb(110, 43, 204);*/
+}
+
+form{
+    margin: 60px 0px 20px 0px;
+}
+
+label{
+    margin-right: 40px;
+}
+
+.abbonamenti{
+    display: flex;
+    justify-content: space-between;
+    height:1000px;
+    width: 100%;
+
     background-color: rgb(110, 43, 204);
+}
+
+.tabella_abbonamenti{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    width: 30%;
+    background-color: brown;
+}
+
+.tipo_abbonamento{
+    padding: 10px;
+     background-color: rgb(51, 73, 175);
+}
+
+.contenuto_abbonamento{
+    height: 600px;
+    background-color: rgb(51, 175, 115);
+}
+.punti_salienti_abbonamento{
+    height: 400px;
+    background-color: bisque;
 }
 
 /*Footer*/
