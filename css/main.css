@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-size: 55px;
+}
+
 .text_black{
     color: black;
 }
@@ -40,7 +44,7 @@ span{
 /*Body*/
 
 body{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Open Sans; arial;
 }
 
@@ -74,10 +78,47 @@ header{
 
 /*Jumbo*/
 
+.jumbo{
+    background-color: #B4D0E7;
+    height: 540px ;
+}
+
 .jumbo>.contenitore{
-    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    padding-top: 60px;
+    height: 700px;
+    width: 70%;
     /*DEBUG*/
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
+}
+
+.carddx{
+    margin-top: 50px;
+    align-self: center;
+    width: 70%;
+}
+.contenitore>.cardsx{
+    margin-top: 50px;
+    width: 30%;
+}
+
+.cardsx>button{
+    margin: 30px 0px
+}
+
+.img_proposta{
+    align-items: end;
+    width: 100%;
+}
+
+.arrow{
+    font-size: 30px;
+    margin-top:40px;
+    font-weight: 700;
 }
 
 /*Main*/
