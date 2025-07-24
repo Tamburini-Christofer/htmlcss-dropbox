@@ -139,9 +139,11 @@ button{
 }
 
 .contenuto_abbonamento button{
-    padding: 8px 5px;
-    margin: 83px 0px 40px 20px; 
-    width: 80%;
+    align-self: center;
+    align-content: center;
+    padding: 9px 5px;
+    margin: 70px 0px 50px 10px; 
+    width: 90%;
 }
 
 
@@ -192,7 +194,7 @@ ul{
     /*Liste Footer*/
 
 .list_footer li{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 /*Header*/
