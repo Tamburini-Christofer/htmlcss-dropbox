@@ -138,14 +138,6 @@ button{
     background-color: white;
 }
 
-#button_correct{
-    margin: 103.5px 0px 40px 20px;
-}
-
-#button_contattaci{
-    margin: 60px 0px 40px 20px;
-}
-
 .contenuto_abbonamento button{
     padding: 8px 5px;
     margin: 83px 0px 40px 20px; 
@@ -309,8 +301,8 @@ label{
 .abbonamenti{
     display: flex;
     justify-content: space-between;
-    width: 100%;
 
+    /*DEBUG*/
     /*background-color: rgb(110, 43, 204);*/
 }
 
@@ -322,18 +314,24 @@ label{
     margin-top: 20px;
     border: 1px solid grey;
     width: 30%;
+
+    /*DEBUG*/
     /*background-color: brown;*/
 }
 
 .tipo_abbonamento{
     border-bottom: 1px solid grey;
     padding: 10px;
+
+    /*DEBUG*/
     /*background-color: rgb(51, 73, 175);*/
 }
 
 .contenuto_abbonamento{
-    padding: 20px;
+    padding: 18px;
     text-align: left;
+
+    /*DEBUG*/
     /*background-color: rgb(51, 175, 115);*/
 }
 
@@ -343,6 +341,7 @@ label{
 }
 
 .utente_div{
+    font-size: 14PX;
     margin-top: 60px;
 }
 
@@ -356,16 +355,18 @@ label{
 .contenitore_ht_sx{
     padding: 20px;
     width: 100%;
+
+    /*DEBUG*/
     /*background-color: cadetblue;*/
 }
-
-
 
 .contenitore_ht_dx{
     
     padding-top: 30px;
     margin-left: 20px;
     width: 30%;
+
+    /*DEBUG*/
     /*background-color: rgb(95, 160, 109);*/
 }
 
@@ -390,6 +391,8 @@ label{
     flex-direction: column;
 
     margin-top: 80px;
+
+    /*DEBUG*/
     /*background-color: blueviolet;*/
 }
 
@@ -426,12 +429,16 @@ label{
 .row{
     display: flex;
     justify-content: space-between;
+
     margin-top:80px;
 }
 
 .col{
-    /*background-color: aqua;*/
     width: 30%;
+
+    /*DEBUG*/
+    /*background-color: aqua;*/
+    
 }
 
 .row img{
@@ -454,12 +461,15 @@ footer>.contenitore{
 
     width: 70%;
     height: 500px;
+
+    /*DEBUG*/
     /*background-color: rgb(165, 26, 26);*/
 }
 
 .list_footer{
     padding-top: 60px;
     width: 20%;
+
     /*DEBUG*/
     /*border: 2px solid white;*/
 }
