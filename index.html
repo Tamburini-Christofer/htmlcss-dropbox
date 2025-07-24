@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <!--Body-->
@@ -25,6 +24,7 @@
     <!--Header-->
 
     <header>
+
         <div class="header">
 
             <!--Header sinsitra-->
@@ -35,6 +35,7 @@
                     <span class="text_black"><a class="a_black" href="#">Perchè Dropbox</a></span>
                     <span class="text_black"><a class="a_black" href="#">Funzioni</a></span>
                     <span class="text_black"><a class="a_black" href="#">Piani e Prezzi</a></span>
+                </nav>
             </div>
         </div>
 
@@ -55,8 +56,13 @@
     <!--Jumbo-->
 
     <section class="jumbo">
+
         <div class="contenitore">
+
             <h1>Tutto ciò che ti serve per il tuo lavoro, in un unico posto</h1>
+
+            <!--Card sinistra Jumbo-->
+
             <div class="cardsx">
                 <div>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso psoto.
                     Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per
@@ -65,6 +71,9 @@
                 <div>Annulla in qualsiasi momento</div>
                 <i class="fa-solid fa-arrow-down arrow"></i>
             </div>
+
+            <!--Card destra Jumbo-->
+
             <div class="carddx">
                 <img class="img_proposta" src="img/jumbo.png" alt="Proposta per il cliente">
             </div>
@@ -74,12 +83,15 @@
     <!--Main-->
 
     <main>
+
         <div class="contenitore">
 
             <!--Sezione abbonamenti-->
 
             <section>
+
                 <h2>Trova il piano business che fa per te</h2>
+
                 <form>
                     <input checked type="radio" name="Fatturazione mensile" id="opzione 1" value="Fatturazione mensile">
                     <label for="opzione 1">Fatturazione mensile</label>
@@ -102,30 +114,32 @@
                         <!--Contenuto tabella sinistra-->
 
                         <div class="contenuto_abbonamento">
+
                             <h3>Professional</h3>
                             <div>
                                 <span>&#8364; 12,00</span>
-                                <span>/mese</span>
+                                <div class="text_grey">/mese</div>
                             </div>
                             <div class="utente_div">
                                 <ul>
-                                    <li> <i class="fa-solid fa-person"></i>1 utente</li>
-                                    <li> <i class="fa-solid fa-folder-closed"></i>5 TB di spazio di archiviazione sicuro
-                                    </li>
-                                    <li> <i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e
+                                    <li>1 utente</li>
+                                    <li>5 TB di spazio di archiviazione sicuro</li>
+                                    <li>Funzioni di produttività premium e
                                         condivisione
-                                        file semplice e sicura</li>
+                                        file semplice e sicura
+                                    </li>
+
                                 </ul>
                             </div>
-
-
-                            <button>Prova gratis per 30 giorni</button>
+                            <button id="button_correct">Prova gratis per 30 giorni</button>
                             <span>oppure <a href="#">acquista ora</a></span>
                         </div>
+                        <hr>
 
                         <!--Footer tabella sinistra-->
 
                         <div class="punti_salienti_abbonamento">
+
                             <h4>Punti Sallenti del piano</h4>
                             <div>
                                 <ul>
@@ -147,18 +161,19 @@
                         <!--Contenuto tabella centrale-->
 
                         <div class="contenuto_abbonamento">
+
                             <h3>Advanced</h3>
                             <div>
                                 <span>&#8364; 18,00</span>
-                                <span>/utente/mese</span>
+                                <div class="text_grey">/utente/mese</div>
                             </div>
 
                             <div class="utente_div">
                                 <ul>
-                                    <li><i class="fa-solid fa-people-group"></i>3 o più utenti</li>
-                                    <li> <i class="fa-solid fa-folder-closed"></i>Tutto lo spazio di cui hai bisogno il
+                                    <li>3 o più utenti</li>
+                                    <li>Tutto lo spazio di cui hai bisogno il
                                         tuo team</li>
-                                    <li><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e per
+                                    <li>Sofisticate funzioni di controllo e per
                                         tenere al
                                         sicuro tutti i file del tuo team</li>
                                 </ul>
@@ -166,19 +181,22 @@
                             <button>Prova gratis per 30 giorni</button>
                             <span>oppure <a href="#">acquista ora</a></span>
                         </div>
-
+                        <hr>
 
                         <!--Footer tabella centrale-->
 
                         <div class="punti_salienti_abbonamento">
+
                             <h4>Punti Sallenti del piano</h4>
                             <div>
                                 <ul>
-                                    <li>Invia file a 100Gb con Dropbox Transfert</li>
+                                    <li> Nessun limite di spazio per i file</li>
                                     <li> Cartelle offline su dispositivi mobili</li>
+                                    <li> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                    <li> Possibilità di inserire nuovi membri del team</li>
+                                    <li> Gestione dei permessi in base ai ruoli</li>
                                 </ul>
                             </div>
-
                         </div>
                     </div>
 
@@ -186,40 +204,45 @@
 
                     <div class="tabella_abbonamenti">
 
-                        <!--Header tabella centrale-->
+                        <!--Header tabella destra-->
 
                         <div class="tipo_abbonamento"><i class="fa-solid fa-building"></i> Azienda</div>
 
-                        <!--Contenuto tabella centrale-->
+                        <!--Contenuto tabella destra-->
 
                         <div class="contenuto_abbonamento">
+
                             <h3>Enterprise</h3>
                             <div>
                                 <span>Contattaci</span>
+                                <div>-</div>
                             </div>
 
                             <div class="utente_div">
                                 <ul>
                                     <li>10 o più utenti</li>
-                                    <li><i class="fa-solid fa-folder-closed"></i>Soluzioni personalizzabili per las tua
+                                    <li>Soluzioni personalizzabili per las tua
                                         azienda</li>
-                                    <li><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli
+                                    <li>Assistenza personalizzata per aiutare gli
                                         amminsitratori in una gestione su larga scala</li>
                                 </ul>
 
                             </div>
-                            <button>Prova gratis per 30 giorni</button>
+                            <button>Contattaci</button>
                             <span>oppure <a href="#">acquista ora</a></span>
                         </div>
+                        <hr>
 
-                        <!--Footer tabella centrale-->
+                        <!--Footer tabella destra-->
 
                         <div class="punti_salienti_abbonamento">
+
                             <h4>Punti Sallenti del piano</h4>
                             <div>
                                 <ul>
-                                    <li>Invia file a 100Gb con Dropbox Transfert</li>
                                     <li> Cartelle offline su dispositivi mobili</li>
+                                    <li> Servizio assistenza 24/h</li>
+                                    <li>Possibilità di personalizzazione totale</li>
                                 </ul>
                             </div>
                         </div>
@@ -227,10 +250,17 @@
                     </div>
                 </div>
                 <div>
+
+                    <!--Tabella Team-->
+
                     <div class="contenitore_team">
+
                         <div class="contenitore_header_team border"><i class="fa-solid fa-building"></i> Team </div>
 
                         <div class="contenitore_ht border">
+
+                            <!--Card sinistra Team-->
+
                             <div class="contenitore_ht_sx">
                                 <h3>Enterprise</h3>
                                 <span>Contatta l'ufficio per i prezzi</span>
@@ -239,6 +269,9 @@
                                         nella gestione su qualsiasi scala</span>
                                 </div>
                             </div>
+
+                            <!--Card destra Team-->
+
                             <div class="contenitore_ht_dx">
                                 <button>Contatta l'ufficio vendite</button>
                             </div>
@@ -246,11 +279,21 @@
                     </div>
                 </div>
             </section>
+
+            <!--Sezione immagine "entra in contatto con..."-->
+
             <section>
+
                 <div class="contenitore_img_text">
+
+                    <!--Card sinsitra..."-->
+
                     <div class="cardsx_entra">
                         <img src="img/partner.png" alt="Due colleghi che passeggiano felici">
                     </div>
+
+                    <!--Card destra..."-->
+
                     <div class="carddx_entra">
                         <h3>Entra in contatto con un partner Dropbox</h3>
                         <div class="margin_top">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e
@@ -261,9 +304,16 @@
                     </div>
                 </div>
             </section>
+
+            <!--Sezione griglia..."-->
+
             <section>
+
                 <div>
                     <h2>Esegui più operazioni con Dropbox Business</h2>
+
+                    <!--Riga sopra-->
+
                     <div class="row">
                         <div class="col">
                             <img src="img/business-feature-switching-tools.png" alt="">
@@ -287,6 +337,9 @@
                                 Office e Dropbox Paper direttamente da Dropbox.</div>
                         </div>
                     </div>
+
+                    <!--Riga sotto-->
+
                     <div class="row">
                         <div class="col">
                             <img src="img/business-feature-integrations-it.png" alt="">
@@ -311,30 +364,34 @@
                         </div>
                     </div>
                 </div>
+
+                <!--Sezione 500.000-->
+
                 <section>
+
                     <div class="margin_top_cento">
+
                         <h2>Più di 500.000 team utilizzano <br> Dropbox Business
                         </h2>
                         <div class="margin_top_max margin_bottom">
                             <a href="#">Scopri di più sui nostri clienti</a>
                         </div>
-
                     </div>
                 </section>
         </div>
-
-
-
-
-
         </div>
     </main>
 
     <!--Footer-->
 
     <footer>
+
         <div class="contenitore">
+
             <div class="list_footer">
+
+                <!--Dropbox-->
+
                 <h3 class="text_white"><a class="a_white" href="#">Dropbox</a></h3>
                 <ul class="text_white">
                     <li><a class="a_white" href="#">Applicazione dextop</a></li>
@@ -343,7 +400,14 @@
                     <li><a class="a_white" href="#">Sicurezza</a></li>
                     <li><a class="a_white" href="#">Funzioni</a></li>
                 </ul>
+                <hr>
+                <div class="text_white">
+                    <span><i class="fa-solid fa-earth-europe"></i> Italiano ▼</span>
+                </div>
             </div>
+
+            <!--Prodotti-->
+
             <div class="list_footer text_white">
                 <h3 class="text_white"><a class="a_white" href="#">Prodotti</a></h3>
                 <ul class="text_white">
@@ -363,8 +427,9 @@
                     <li><a class="a_white" href="#">Sicurezza</a></li>
                     <li><a class="a_white" href="#">Funzioni</a></li>
                 </ul>
-
             </div>
+
+            <!--Supporto-->
 
             <div class="list_footer text_white">
                 <h3 class="text_white"><a class="a_white" href="#">Supporto</a></h3>
@@ -375,8 +440,10 @@
                     <li><a class="a_white" href="#">Sicurezza</a></li>
                     <li><a class="a_white" href="#">Funzioni</a></li>
                 </ul>
-
             </div>
+
+            <!--Communità-->
+
             <div class="list_footer text_white">
                 <h3 class="text_white"><a class="a_white" href="#">Community</a></h3>
                 <ul class="text_white">
@@ -386,11 +453,9 @@
                     <li><a class="a_white" href="#">Sicurezza</a></li>
                     <li><a class="a_white" href="#">Funzioni</a></li>
                 </ul>
-
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
