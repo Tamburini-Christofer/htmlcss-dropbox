@@ -142,7 +142,7 @@ button{
     align-self: center;
     align-content: center;
     padding: 9px 5px;
-    margin: 50px 0px 50px 10px; 
+    margin: 30px 0px 30px 10px; 
     width: 90%;
 }
 
@@ -180,6 +180,8 @@ ul{
 }
 
 .punti_salienti_abbonamento li{
+    display: flex;
+    align-items: baseline;
     text-align:start;
     margin-top:20px;
 }
