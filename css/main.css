@@ -109,6 +109,12 @@ a{
     text-decoration: none;
 }
 
+.a_black:hover{;
+    text-underline-offset: 23px;
+    text-decoration: underline;
+}
+
+
 span a{
     color: #0062FE;
     text-decoration: underline;
@@ -166,7 +172,6 @@ ul{
 }
 
 .utente_div li:last-child:before{
-    jus
     padding-right: 3px;
     content: "\f1e0";
     font-family: FontAwesome;
@@ -207,7 +212,7 @@ header{
     top: 0%;
     z-index: 900;
     width: 100%;
-    height: 70px;
+    height: 60px;
     background-color: rgb(255, 255, 255);
 }
 
