@@ -157,7 +157,7 @@ ul{
 
 .utente_div li:first-child::before{
     padding-right: 3px;
-    content: "\f183";
+    content: "\f007";
     font-family: FontAwesome;
 }
 
